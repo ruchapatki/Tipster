@@ -23,6 +23,8 @@ The following **optional** features are implemented:
 
 [Here](https://imgur.com/FyTRe71) is a walkthrough of implemented user stories. (GIF too long to embed in README)
 
+<img src='https://i.imgur.com/FyTRe71.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
