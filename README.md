@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-[Here](https://imgur.com/FyTRe71) is a walkthrough of implemented user stories. (GIF too long to embed in README)
+Here is a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/FyTRe71.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
