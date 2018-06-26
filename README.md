@@ -19,25 +19,17 @@ The following **optional** features are implemented:
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='https://imgur.com/FyTRe71' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Here](https://imgur.com/FyTRe71) is a walkthrough of implemented user stories. (GIF too long to embed in README)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-While building the app, I faced many challenges. This was my first time working in Objective-C, and thus had much to learn in terms of syntax, blocks, and various other components. I had also never worked with animations before, but found that there is much to be explored in that area. 
+While building the app, I faced many challenges. This was my first time working in Objective-C, and thus had much to learn in terms of syntax, blocks, and various other components. I had also never worked with animations before, but found that there is much that I still need to explore in that area. 
 
 ## Credits
-
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
