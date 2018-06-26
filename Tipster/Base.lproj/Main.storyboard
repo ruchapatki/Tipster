@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tips-->
+        <!--Tip Calculator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -90,7 +90,13 @@
                             <outletCollection property="gestureRecognizers" destination="5Vi-46-M1W" appends="YES" id="NwD-if-J7r"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tips" id="PJO-ku-Awf"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="PJO-ku-Awf">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="Sos-W9-4pe">
+                            <connections>
+                                <segue destination="Mpv-Dq-a4t" kind="show" id="ZxM-kt-su2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mealBillField" destination="pev-HH-YrE" id="CmD-35-JkB"/>
                         <outlet property="tipControl" destination="kTD-YD-020" id="QJL-bE-2mK"/>
@@ -107,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="Ldf-E5-0AZ">
             <objects>
-                <viewController id="Mpv-Dq-a4t" sceneMemberID="viewController">
+                <viewController id="Mpv-Dq-a4t" customClass="SettingsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7HE-x8-zZO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
