@@ -10,12 +10,18 @@
 
 @interface SettingsViewController ()
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tipDefault;
+
 @end
 
 @implementation SettingsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+    self.tipDefault.selectedSegmentIndex = doubleValue;
     // Do any additional setup after loading the view.
 }
 
@@ -23,6 +29,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)tipDefaultChange:(id)sender {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double newDefault = self.tipDefault.selectedSegmentIndex;
+    [defaults setDouble:newDefault forKey:@"default_tip_percentage"];
+    [defaults synchronize];
+}
+
+
+
 
 /*
 #pragma mark - Navigation

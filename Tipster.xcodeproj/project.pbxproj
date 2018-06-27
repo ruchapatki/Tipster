@@ -16,6 +16,7 @@
 		95F3389420E2D6DE00236D2D /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F3389320E2D6DE00236D2D /* TipsterTests.m */; };
 		95F3389F20E2D6DE00236D2D /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F3389E20E2D6DE00236D2D /* TipsterUITests.m */; };
 		95F338AE20E2F83500236D2D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F338AD20E2F83500236D2D /* SettingsViewController.m */; };
+		95F338B020E2FC6B00236D2D /* user-silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F338AF20E2FC6B00236D2D /* user-silhouette.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		95F338A020E2D6DE00236D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95F338AC20E2F83500236D2D /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		95F338AD20E2F83500236D2D /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		95F338AF20E2FC6B00236D2D /* user-silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-silhouette.png"; path = "../../../../Downloads/user-silhouette.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				95F338AC20E2F83500236D2D /* SettingsViewController.h */,
 				95F338AD20E2F83500236D2D /* SettingsViewController.m */,
 				95F3388320E2D6DE00236D2D /* Assets.xcassets */,
+				95F338AF20E2FC6B00236D2D /* user-silhouette.png */,
 				95F3388520E2D6DE00236D2D /* LaunchScreen.storyboard */,
 				95F3388820E2D6DE00236D2D /* Info.plist */,
 				95F3388920E2D6DE00236D2D /* main.m */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F338B020E2FC6B00236D2D /* user-silhouette.png in Resources */,
 				95F3388720E2D6DE00236D2D /* LaunchScreen.storyboard in Resources */,
 				95F3388420E2D6DE00236D2D /* Assets.xcassets in Resources */,
 				95F3388220E2D6DD00236D2D /* Main.storyboard in Resources */,

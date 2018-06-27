@@ -15,14 +15,31 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 
+@property (weak, nonatomic) IBOutlet UILabel *twoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *threeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fourLabel;
+
+
 
 @end
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSUserDefaults *bills = [NSUserDefaults standardUserDefaults];
+    NSString *billValue = [bills stringForKey:@"default_billValue"];
+    self.mealBillField.text = billValue;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+    self.tipControl.selectedSegmentIndex = doubleValue;
+    [self onEdit:self];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
@@ -48,6 +65,16 @@
     //f indicates double, .2 indicates 2 decimal places
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
+    
+    self.twoLabel.text = [NSString stringWithFormat:@"$%.2f", total/2];
+    self.threeLabel.text = [NSString stringWithFormat:@"$%.2f", total/3];
+    self.fourLabel.text = [NSString stringWithFormat:@"$%.2f", total/4];
+    
+    
+    NSUserDefaults *bills = [NSUserDefaults standardUserDefaults];
+    NSString *newBill = self.mealBillField.text;
+    [bills setObject:newBill forKey:@"default_billValue"];
+    [bills synchronize];
 }
 
 - (IBAction)onEditingBegin:(id)sender {

@@ -13,17 +13,22 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [x] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- [x] Shows how much each person will pay if 2, 3, or 4 people are dining together.
+
 
 ## Video Walkthrough
 
 Here is a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/FyTRe71.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/92TDomf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -33,6 +38,7 @@ While building the app, I faced many challenges. This was my first time working 
 
 ## Credits
 
+-[Freepik](https://www.freepik.com/) from [FlatIcon](www.flaticon.com) - icons
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
 ## License
