@@ -34,7 +34,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-While building the app, I faced many challenges. This was my first time working in Objective-C, and thus had much to learn in terms of syntax, blocks, and various other components. I had also never worked with animations before, but found that there is much that I still need to explore in that area. 
+While building the app, I faced many challenges. This was my first time working in Objective-C, and thus had much to learn in terms of syntax, blocks, and various other components. I had also never worked with animations before, but found that there is much that I still need to explore in that area. Saving information also proved to be more difficult than I anticipated, but after figuring out how to save the default tip value, saving the bill value became much easier.
 
 ## Credits
 
