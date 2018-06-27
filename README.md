@@ -4,7 +4,7 @@ Tipster is a tip calculator application for iOS.
 
 Submitted by: Rucha Patki
 
-Time spent: 2 hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
@@ -38,7 +38,7 @@ While building the app, I faced many challenges. This was my first time working 
 
 ## Credits
 
--[Freepik](https://www.freepik.com/) from [FlatIcon](www.flaticon.com) - icons
+- [Freepik](https://www.freepik.com/) from [FlatIcon](www.flaticon.com) - icons
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
 ## License
