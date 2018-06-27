@@ -36,6 +36,8 @@
     double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
     self.tipControl.selectedSegmentIndex = doubleValue;
     [self onEdit:self];
+    
+    [self.mealBillField becomeFirstResponder];
 }
 
 - (void)viewDidLoad {
